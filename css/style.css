@@ -317,3 +317,59 @@ h1{
 }
 
 /* ---- PORTFOLIO END ----*/
+
+
+/* ---- CONTACT SECTION ----*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.contacto__formulario {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    margin-top: 30px;
+    width: 30%;
+}
+
+
+/* ---- CONTACT QUERIES ----*/
+
+@media (max-width: 480px) {
+    .contacto__formulario {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* ---- CONTACT END ----*/
